@@ -2,6 +2,7 @@ const mongoose = require('mongoose');
 const validator = require('validator');
 const Schema = mongoose.Schema;
 
+// create an export function to encapsulate the model creation
 module.exports = function () {
     const contactSchema = new Schema({
         email: {

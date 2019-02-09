@@ -1,5 +1,5 @@
 {
-  "name": "contact-manager",
+  "name": "contacta",
   "version": "1.0.0",
   "description": "Commind Line App for Practice",
   "main": "index.js",
@@ -8,6 +8,7 @@
   },
   "author": "Binlix26",
   "license": "ISC",
+  "bin": "./app.js",
   "dependencies": {
     "commander": "^2.19.0",
     "inquirer": "^6.2.2",
